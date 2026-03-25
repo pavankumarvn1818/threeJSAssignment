@@ -8,6 +8,21 @@ The solution demonstrates practical implementation of **WebGL rendering, animati
 
 ---
 
+## 📝 Assignment & Internship Context
+
+This project was developed as part of a **frontend assignment** associated with an internship opportunity from **EmptyCup**, facilitated via **Internshala**.
+
+The assignment was aimed at evaluating:
+
+* Proficiency in **Three.js and WebGL rendering**
+* Understanding of **animation and simulation logic**
+* Ability to integrate **interactive UI controls**
+* Overall **frontend engineering and problem-solving skills**
+
+This implementation reflects a structured and practical approach to building **interactive 3D web applications**.
+
+---
+
 ## 🚀 Live Demo
 
 🔗 https://frontend-assignment-psi-ochre.vercel.app/
@@ -22,33 +37,33 @@ The solution demonstrates practical implementation of **WebGL rendering, animati
 
 ## 🧠 Key Features
 
-* 🌍 **Full Solar System Rendering** (Sun + 8 planets)
-* 🎛️ **Dynamic Speed Controls** via UI sliders for each planet
-* 🔄 Real-time **orbital revolution simulation**
-* 🌌 **Skybox environment** for immersive space background
-* 🪐 **Orbit rings visualization** for each planet
-* 💡 **Point light source (Sun-based lighting)**
-* 🎥 Interactive camera using **OrbitControls**
+* 🌍 Full Solar System Rendering (Sun + 8 planets)
+* 🎛️ Dynamic Speed Controls via UI sliders for each planet
+* 🔄 Real-time orbital revolution simulation
+* 🌌 Skybox environment for immersive space background
+* 🪐 Orbit rings visualization for each planet
+* 💡 Point light source (Sun-based lighting)
+* 🎥 Interactive camera using OrbitControls
 * 📱 Responsive canvas with resize handling
 
 ---
 
 ## 🎮 Interactive Controls
 
-The application includes a dedicated **control panel**:
+The application includes a dedicated control panel:
 
-* Adjust speed for:
+**Adjust speed for:**
 
-  * Mercury
-  * Venus
-  * Earth
-  * Mars
-  * Jupiter
-  * Saturn
-  * Uranus
-  * Neptune
+* Mercury
+* Venus
+* Earth
+* Mars
+* Jupiter
+* Saturn
+* Uranus
+* Neptune
 
-Each slider dynamically updates orbital speed in real-time via DOM interaction logic. 
+Each slider dynamically updates orbital speed in real-time via DOM interaction logic.
 
 ---
 
@@ -64,7 +79,7 @@ Each slider dynamically updates orbital speed in real-time via DOM interaction l
 
 ## 🏗️ Project Structure
 
-```bash
+```bash id="l7k2fp"
 threeJSAssignment/
 │── index.html        # UI + controls
 │── index.css         # Styling (canvas + control panel)
@@ -90,10 +105,11 @@ threeJSAssignment/
 
 ### 3. Orbital Mechanics
 
-* Each planet revolves using a **time-based trigonometric function**
-* Centralized function:
+* Each planet revolves using a time-based trigonometric function
 
-```js
+**Core function:**
+
+```js id="z0ff3d"
 planetRevolver(time, speed, planet, orbitRadius)
 ```
 
@@ -101,7 +117,7 @@ planetRevolver(time, speed, planet, orbitRadius)
 
 * Speeds stored in `revolutionSpeeds` object
 * Updated in real-time from slider inputs
-* Enables **interactive simulation tuning**
+* Enables interactive simulation tuning
 
 ### 5. Visual Enhancements
 
@@ -113,7 +129,7 @@ planetRevolver(time, speed, planet, orbitRadius)
 
 ## ▶️ Installation & Setup
 
-```bash
+```bash id="s7o0on"
 # Clone the repository
 git clone https://github.com/pavankumarvn1818/threeJSAssignment.git
 
@@ -124,9 +140,9 @@ cd threeJSAssignment
 Open index.html in browser
 ```
 
-> Recommended (for module support):
+### Recommended (for module support):
 
-```bash
+```bash id="cbln73"
 npx serve
 ```
 
@@ -166,11 +182,11 @@ Deployed using **Vercel**, ensuring:
 
 ## 🔮 Future Enhancements
 
-* 🌗 Add realistic **lighting + shadows**
-* 🛰️ Introduce **moons and satellites**
-* 🎛️ Add **global time scaling control**
-* 📊 Display **planetary data overlays**
-* 🌠 Improve realism with **HDR environment maps**
+* 🌗 Add realistic lighting + shadows
+* 🛰️ Introduce moons and satellites
+* 🎛️ Add global time scaling control
+* 📊 Display planetary data overlays
+* 🌠 Improve realism with HDR environment maps
 
 ---
 
@@ -194,7 +210,15 @@ This project is licensed under the **MIT License**.
 
 ## ⭐ Summary
 
-This project showcases a **fully interactive 3D simulation system** combining rendering, animation, and user-driven controls—positioning it as a strong demonstration of **Three.js proficiency and frontend engineering capability**.
+This project showcases a **fully interactive 3D simulation system** combining rendering, animation, and user-driven controls.
+
+Developed as part of a **frontend assignment for an internship opportunity (EmptyCup via Internshala)**, it highlights strong capabilities in:
+
+* Three.js and WebGL
+* Interactive UI engineering
+* Real-time simulation systems
+
+Making it a solid demonstration of **frontend and 3D web development proficiency**.
 
 ---
-
+s
